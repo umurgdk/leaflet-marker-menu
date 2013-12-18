@@ -1,0 +1,25 @@
+{
+  "name": "Leaflet Marker Menu",
+  "version": "0.0.1",
+  "authors": [
+    "Umur Gedik <umurgdk@gmail.com>"
+  ],
+  "description": "Circular menu for markers (see demo)",
+  "main": "src/leaflet-marker-menu.js",
+  "keywords": [
+    "leaflet",
+    "map",
+    "gis",
+    "mapbox",
+    "menu",
+    "css3"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
