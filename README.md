@@ -1,7 +1,7 @@
 ## Leaflet Marker Menu Plugin
 
 This plugin adds animated circular menus to your leaflet markers. Unfortunately there is only support for css3 animations.
-Please see the [demo page](http://umurgdk.github.io/leaflet-marker-menu/demo/index.html).
+Please see the <a href="http://umurgdk.github.io/leaflet-marker-menu/demo/index.html" target="_blank">demo page</a>.
 
 ![Leaflet Marker Menu Demo Screenshot](https://raw.github.com/umurgdk/leaflet-marker-menu/master/demo/ss.png)
 
