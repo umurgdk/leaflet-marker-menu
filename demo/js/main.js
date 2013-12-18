@@ -1,36 +1,40 @@
 var App = {
     initialize: function () {
-        var map = window.map = L.mapbox.map('map', 'umurgdk.map-q0038vnz').setView([-33.4373, -70.6437], 15),
-            marker = L.marker([-33.4373, -70.6437]);
+        var map = new L.Map('map');
+
+        map.setView(new L.LatLng(40.990475, 29.029183), 15);
+        map.addLayer(new L.TileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'));
+
+        var marker = L.marker([40.990475, 29.029183]);
 
         marker.setMenu({
             radius: 75,
 
             items: [{
-                title: "Hobarey",
+                title: "Menu 1",
                 click: function () {
-                    alert("Hobarey");
+                    alert("Menu 1");
                 }
             }, {
-                title: "Ne Guzel",
+                title: "Ozel Menu",
                 className: 'item-2',
                 click: function () {
-                    alert("Ne Guzel");
+                    alert("I have a special class");
                 }
             }, {
-                title: "Ne Guzel",
+                title: "Another one!",
                 click: function () {
-                    alert("Ne Guzel");
+                    alert("Wohoo there is too much!");
                 }
             }, {
-                title: "Ne Guzel",
+                title: "Another meh!",
                 click: function () {
-                    alert("Ne Guzel");
+                    alert("Another meh!");
                 }
             }, {
-                title: "Ne Guzel",
+                title: "Im get boring!",
                 click: function () {
-                    alert("Ne Guzel");
+                    alert("don't!");
                 }
             }]
         });
