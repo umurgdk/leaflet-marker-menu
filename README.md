@@ -72,3 +72,7 @@ var menu2 = L.markerMenu({
 // and you can add them to markers
 marker.setMenu(menu2);
 ```
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/umurgdk/leaflet-marker-menu/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
