@@ -313,7 +313,7 @@
             this.off('move', this._moveMenu);
             this.off('remove', this.closeMenu);
 
-            this._closeMenu();
+            this.closeMenu();
             this._menu = null;
         },
 
